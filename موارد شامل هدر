@@ -1,0 +1,38 @@
+// لود اچ تی ام ال 5
+<!doctype html>
+
+<html 
+
+// جایگزین زبان در قسمت هدر
+<?php language_attributes(); ?>>
+
+// لود زبان و یونی کد
+<meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo( 'charset' ); ?>">
+
+
+// اسم تیتر در صفحه
+
+<title>
+
+
+// تعریف تابع عمومی
+<?php global $page, $paged;
+ 
+wp_title( '|', true, 'right' );
+ 
+bloginfo( 'name' );
+ 
+$site_description = get_bloginfo( 'description', 'display' );
+ 
+if ( $site_description && ( is_home() || is_front_page() ) )
+ 
+echo " | $site_description";
+ 
+if ( $paged >= 2 || $page >= 2 )
+ 
+echo ' | ' . sprintf( __( 'Page %s', 'mytheme' ), max( $paged, $page ) );
+ 
+?>
+
+
+</title>
