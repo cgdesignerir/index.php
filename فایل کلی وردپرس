@@ -1,14 +1,14 @@
-Index.php
-Header.php
-Footer.php
-Sidebar.php
-Single.php
-Page.php
-Loop.php
-Comments.php
-Search.php
-Searchfrom.php
-Archive.php
-Functions.php
-404.php
-Style.css
+Index.php : قالب صفحه اصلی
+Header.php : کدهای سرصفحه در این فایل قرار می گیرند.
+Footer.php : کدهای پاصفحه در این فایل قرار می گیرند.
+Sidebar.php : کدهای ستون کناری در این فایل قرار می گیرند. البته اگر پوسته دارای 2 ستون کناری یعنی چپ و راست بود دوفایل right-sidebar.php و left-sidebar.php ایجاد می کنیم.
+single.php : قالب مطالب.
+Page.php : قالب برگه ها.
+Loop.php : قالب مطالبی که در صفحه single.php و page.php قرار می گیرند.
+Comments.php : قالب نظرات.
+Search.php : قالب صفحه نتایج جستجو.
+Searchform.php : کدهای فرم جستجو.
+Archive.php : قالب صفحه آرشیو مطالب.
+Functions.php : توابع پوسته، دراصل با استفاده از این فایل می توان امکانات بیشتری برای پوسته ایجاد کرد. که پر استفاده ترین امکان نیز ، پشتیبانی از ابزارک هاست.
+404.php : قالب صفحه خطای 404 (Not Found)
+Style.css : استایل پوسته
